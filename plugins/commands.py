@@ -142,7 +142,8 @@ async def about(bot, message):
                              ),
                          InlineKeyboardButton
                              (
-                                 "Dev 🤠", callback_data="devmuhammed"
+                                 
+                                 "👨DEV", url="MOVIES_SQUAD_ADMIN"
                              )
                     ],
                     [
