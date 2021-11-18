@@ -47,8 +47,8 @@ async def start(bot, message):
             await message.reply_text(
                 text=FORCE_SUB_TEXT.format(message.from_user.mention),
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="🔔 Join", url=f"https://t.me/{update_channel}")]       
-              ])
+                    InlineKeyboardButton('📢MAIN CHANNEL📢', url='https://t.me/joinchat/ISZ9R5CdkgBlMzNl'),       
+              )
             )
             return
         file_id, file_name, file_caption, file_type = await db.get_file(file_uid)
@@ -172,11 +172,11 @@ async def sub(bot, message):
                     [
                          InlineKeyboardButton
                              (                                 
-                                 "📣Group", url="t.me/mo_tech_group"
+                                 "📣Group", url="https://t.me/vlIeYa9keYUxZDY1"
                              ),
                          InlineKeyboardButton
                              (
-                                 "📢Channel", url="t.me/mo_tech_yt"
+                                 "📢Channel", url="https://t.me/joinchat/ISZ9R5CdkgBlMzNl"
                              )
                     ],
                     [
